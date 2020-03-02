@@ -1,9 +1,9 @@
 $(document).ready(function() {
-
+/*
     // Invoco le funzioni per cambiare slide
     $('.next').click(nextSlide);        // Al click richiamo la funzione per aggiornare l'immagine visualizzando la successiva
     $('.prev').click(prevSlide);
-
+*/
     // Definisco le funzioni nextImage e prevImage
     function nextSlide() {
         if ( $('.images img.active').hasClass('last') ) {
@@ -56,5 +56,22 @@ $(document).ready(function() {
         }
     }
 
+
+    //Timing functions
+    // var giri = 0;
+    // var clock = setInterval(nextSlide, 3000);
+    // function bloccoSlide(){
+    //     giri = giri + 1;
+    //     if (giri == 8) {
+    //         clearInterval(clock);
+    //     }
+    // }
+    // var giri = 0;
+    // var clock = setInterval(nextSlide{
+    //     giri = giri + 1;
+    //     if (giri == 8) {
+    //         clearInterval(clock);
+    //     }
+    // }, 1000);
 
 });
